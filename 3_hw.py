@@ -25,8 +25,10 @@ def nomer4(a):
         print("Leto")
     elif 8 <a < 12:
         print("Osen")
-    else:
+    elif 3 > a or 12:
         print("Zima")
+    else:
+        print("there is no such month")
 
 nomer4(12)
 
